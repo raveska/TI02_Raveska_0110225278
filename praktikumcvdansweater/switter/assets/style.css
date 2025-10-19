@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #4e73df;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #dde6ff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    margin-bottom: 10px;
+}
+
+.produk {
+    padding: 40px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.produk-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.produk-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 200px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.produk-item:hover {
+    transform: scale(1.05);
+}
+
+.produk-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.produk-item h4 {
+    margin: 10px 0 5px;
+}
+
+.produk-item button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #4e73df;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.produk-item button:hover {
+    background-color: #2e59d9;
+}
+
+footer {
+    background-color: #4e73df;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
