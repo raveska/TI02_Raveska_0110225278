@@ -1,0 +1,178 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+#header {
+    background-color: #333;
+    color: #aa7906;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Menu */
+#menu {
+    background-color: #444;
+    padding: 10px;
+}
+
+#menu nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+#menu nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+#menu nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#menu nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Content */
+#content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Foto Profil */
+#content img[alt="Foto Profil"] {
+    border-radius: 50%;
+    border: 5px solid #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Biodata */
+#biodata table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#biodata table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+#biodata table td:first-child {
+    font-weight: bold;
+    width: 30%;
+}
+
+/* Deskripsi Diri */
+#content p {
+    margin-bottom: 15px;
+}
+
+/* Multimedia */
+#multimedia h3 {
+    margin-top: 20px;
+    color: #555;
+}
+
+#multimedia video {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Koleksi Foto (Galeri) */
+#multimedia div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#multimedia img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+#multimedia img:hover {
+    transform: scale(1.05);
+}
+
+/* Link Download */
+#content ul {
+    list-style: none;
+    padding: 0;
+}
+
+#content ul li {
+    margin-bottom: 10px;
+}
+
+#content ul li a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#content ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+#footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    #menu nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    #content {
+        margin: 10px;
+        padding: 10px;
+    }
+    #multimedia div {
+        justify-content: center;
+    }
+    #multimedia img {
+        width: 120px;
+        height: 120px;
+    }
+    #biodata table td {
+        display: block;
+        width: 100%;
+    }
+}
