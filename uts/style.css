@@ -1,0 +1,27 @@
+.{
+    margin:0;
+    box-sizing: border-box;
+}
+body {
+    background-color: beige;
+    font-size: larger;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+.h1 {
+
+}
+
+}
+header,footer {
+    background-color: pink;
+    padding: 15px 0;
+    font-weight:bold;
+}
+.container {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
